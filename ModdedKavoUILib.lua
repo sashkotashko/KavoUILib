@@ -52,7 +52,7 @@ local themes = {
     SchemeColor = Color3.fromRGB(74, 99, 135),
     Background = Color3.fromRGB(36, 37, 43),
     Header = Color3.fromRGB(28, 29, 34),
-    TextColor = Color3.fromRGB(255,255,255),
+    TextColor = Color3.fromRGB(255, 255, 255),
     ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
@@ -60,12 +60,12 @@ local themeStyles = {
         SchemeColor = Color3.fromRGB(64, 64, 64),
         Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(0, 0, 0),
-        TextColor = Color3.fromRGB(255,255,255),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     LightTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
-        Background = Color3.fromRGB(255,255,255),
+        Background = Color3.fromRGB(255, 255, 255),
         Header = Color3.fromRGB(200, 200, 200),
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(224, 224, 224)
@@ -74,22 +74,22 @@ local themeStyles = {
         SchemeColor = Color3.fromRGB(227, 27, 27),
         Background = Color3.fromRGB(10, 10, 10),
         Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,255,255),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
         Background = Color3.fromRGB(64, 50, 71),
         Header = Color3.fromRGB(36, 28, 41),
-        TextColor = Color3.fromRGB(255,255,255),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(74, 58, 84)
     },
 	TashaciSMed = {
-        SchemeColor = Color3.fromRGB(166, 71, 214),
-        Background = Color3.fromRGB(64, 50, 71),
-        Header = Color3.fromRGB(36, 28, 41),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(74, 58, 84)
+        SchemeColor = Color3.fromRGB(0, 255, 157),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(15, 15, 15),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(0, 213, 128)
     },
     Ocean = {
         SchemeColor = Color3.fromRGB(86, 76, 251),
@@ -123,7 +123,7 @@ local themeStyles = {
         SchemeColor = Color3.fromRGB(0, 166, 58),
         Background = Color3.fromRGB(31, 41, 43),
         Header = Color3.fromRGB(22, 29, 31),
-        TextColor = Color3.fromRGB(255,255,255),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(22, 29, 31)
     }
 }
