@@ -84,7 +84,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(74, 58, 84)
     },
-	TashaciSMed = {
+    TashaciSMed = {
         SchemeColor = Color3.fromRGB(0, 255, 157),
         Background = Color3.fromRGB(10, 10, 10),
         Header = Color3.fromRGB(15, 15, 15),
@@ -166,6 +166,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.BloodTheme
     elseif themeList == "TashaciSMed" then
         themeList = themeStyles.TashaciSMed
+	elseif themeList == "GrapeTheme" then
+        themeList = themeStyles.GrapeTheme
     elseif themeList == "Ocean" then
         themeList = themeStyles.Ocean
     elseif themeList == "Midnight" then
