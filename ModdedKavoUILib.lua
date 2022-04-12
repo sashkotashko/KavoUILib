@@ -85,11 +85,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(74, 58, 84)
     },
     TashaciSMed = {
-        SchemeColor = Color3.fromRGB(0, 255, 157),
+        SchemeColor = Color3.fromRGB(0, 173, 104),
         Background = Color3.fromRGB(10, 10, 10),
         Header = Color3.fromRGB(15, 15, 15),
         TextColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(0, 213, 128)
+        ElementColor = Color3.fromRGB(0, 255, 157)
     },
     Ocean = {
         SchemeColor = Color3.fromRGB(86, 76, 251),
