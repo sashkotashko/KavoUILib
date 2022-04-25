@@ -90,6 +90,12 @@ local themeStyles = {
         Header = Color3.fromRGB(15, 15, 15),
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(0, 255, 157)
+    OreoTheme = {
+        SchemeColor = Color3.fromRGB(255,255,255),
+        Background = Color3.fromRGB(0,0,0),
+        Header = Color3.fromRGB(8,8,8),
+        TextColor = Color3.fromRGB(0,0,0),
+        ElementColor = Color3.fromRGB(255,255,255)
     },
     Ocean = {
         SchemeColor = Color3.fromRGB(86, 76, 251),
@@ -166,7 +172,9 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.BloodTheme
     elseif themeList == "TashaciSMed" then
         themeList = themeStyles.TashaciSMed
-	elseif themeList == "GrapeTheme" then
+    elseif themeList == "OreoTheme" then
+        themeList = themeStyles.OreoTheme
+    elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
     elseif themeList == "Ocean" then
         themeList = themeStyles.Ocean
