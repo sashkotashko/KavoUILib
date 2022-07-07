@@ -150,7 +150,7 @@ end
 Settings = game:service'HttpService':JSONEncode(readfile(Name))
 end)
 
-local LibName = tostring(math.random(1, 100))..tostring(math.random(1,50))..tostring(math.random(1, 100))
+local LibName = "KavoUILib"
 
 function Kavo:ToggleUI()
     if game.CoreGui[LibName].Enabled then
